@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Il Deepfake — Tesina</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-tag">Tesina di informatica</div>
+  <h1>
+    <span class="glitch" data-text="DEEP">DEEP</span>
+    FAKE
+  </h1>
+  <p class="hero-sub">Intelligenza artificiale, manipolazione dei media e come difendersi</p>
+  <nav class="hero-nav">
+    <a href="#cos-e">01 / Cos'è</a>
+    <a href="#come-si-crea">02 / Come si crea</a>
+    <a href="#usi">03 / Usi</a>
+    <a href="#riconoscere">04 / Come riconoscerlo</a>
+    <a href="#leggi">05 / Leggi e futuro</a>
+  </nav>
+  <div class="scroll-hint">scroll</div>
+</header>
+
+<section id="cos-e">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label">01 — Definizione</div>
+      <h2>Cos'è il Deepfake?</h2>
+      <p>Il termine <strong>deepfake</strong> viene dall'inglese: "deep" sta per deep learning (un tipo di intelligenza artificiale) e "fake" vuol dire falso. Si tratta di video, immagini o audio generati con l'IA in modo così preciso da sembrare completamente reali. Il problema è che spesso è quasi impossibile distinguerli dai contenuti originali.</p>
+    </div>
+    <div class="reveal">
+      <h3>// Come è nato</h3>
+      <ul class="custom">
+        <li><strong>2017:</strong> il termine compare per la prima volta su Reddit, dove un utente pubblica video falsi di personaggi famosi creati con l'IA.</li>
+        <li><strong>2018–2019:</strong> la tecnologia si diffonde velocemente perché gli strumenti per crearli diventano più accessibili a tutti.</li>
+        <li><strong>Dal 2020 ad oggi:</strong> I deepfake diventano sempre più realistici e difficili da distinguere dai video originali.</li>
+      </ul>
+    </div>
+    <div class="reveal">
+      <h3>// La tecnologia: le GAN</h3>
+      <p>I deepfake si basano su una tecnologia chiamata <strong>GAN (Generative Adversarial Network)</strong>. Una GAN è formata da due programmi che lavorano in insieme:</p>
+      <div class="cards">
+        <div class="card">
+          <div class="card-num">programma 01</div>
+          <h4>Il Generatore</h4>
+          <p>Crea immagini o video falsi, cercando di ingannare l'altro programma.</p>
+        </div>
+        <div class="card">
+          <div class="card-num">programma 02</div>
+          <h4>Il Discriminatore</h4>
+          <p>Cerca di capire se quello che vede è vero o falso. Mette alla prova il generatore.</p>
+        </div>
+      </div>
+      <p style="margin-top:1.2rem;">Con il tempo, il generatore impara a creare immagini sempre più convincenti. Per funzionare, una GAN ha bisogno di moltissimi dati: foto, video o registrazioni audio della persona da imitare</p>
+    </div>
+  </div>
+</section>
+
+<section id="come-si-crea">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label">02 — Tecnica</div>
+      <h2>Come si Crea?</h2>
+    </div>
+    <div class="reveal">
+      <h3>// Le tecniche più usate</h3>
+      <ul class="custom">
+        <li><strong>Face swap:</strong> il viso di una persona viene sovrapposto a quello di un'altra in un video.</li>
+        <li><strong>Face reenactment:</strong> le espressioni facciali e i movimenti della bocca di una persona vengono copiate e applicate a un'altra</li>
+        <li><strong>Voice cloning:</strong> la voce di una persona viene riprodotta artificialmente, permettendo di farle "dire" qualsiasi cosa.</li>
+      </ul>
+    </div>
+    <div class="reveal">
+      <h3>// Gli strumenti più diffusi</h3>
+      <div class="tool-grid">
+        <div class="tool"><div class="tool-name">DeepFaceLab</div><p>Il programma più usato per il face swap nei video</p></div>
+        <div class="tool"><div class="tool-name">FaceSwap</div><p>Simile al precedente, molto popolare online</p></div>
+        <div class="tool"><div class="tool-name">ElevenLabs</div><p>Usato per clonare le voci in modo molto realistico</p></div>
+        <div class="tool"><div class="tool-name">Synthesia</div><p>Piattaforma per creare video con persone generate dall'IA</p></div>
+      </div>
+    </div>
+    <div class="reveal">
+      <h3>// Casi famosi</h3>
+      <ul class="custom">
+        <li><strong>2018 — Obama deepfake:</strong> BuzzFeed pubblica un video falso di Obama per mostrare quanto i deepfake possano essere pericolosi.</li>
+        <li><strong>2019 — Truffa da 243.000$:</strong> dei truffatori usano un audio deepfake della voce di un manager per far trasferire denaro a un dipendente.</li>
+        <li><strong>2022 — Zelensky:</strong> circola un video falso del presidente ucraino in cui sembra ordinare la resa. È stato smentito in poche ore.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="usi">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label">03 — Impatto</div>
+      <h2>Usi Positivi e Negativi</h2>
+      <p>Come molte tecnologie, i deepfake non sono buoni o cattivi. Dipende tutto da come vengono usati.</p>
+    </div>
+    <div class="reveal">
+      <div class="procon">
+        <div class="procon-col pro">
+          <h4>// Usi positivi</h4>
+          <ul>
+            <li>Nel cinema per ringiovanire attori o ricreare persone non più in vita</li>
+            <li>Per doppiare film in altre lingue in modo più naturale</li>
+            <li>In ambito educativo per ricostruire personaggi storici</li>
+          </ul>
+        </div>
+        <div class="procon-col con">
+          <h4>// Usi negativi</h4>
+          <ul>
+            <li>Creare video falsi di politici facendo sembrare che abbiano detto cose mai dette</li>
+            <li>Truffe aziendali fingendosi dirigenti per spostare denaro</li>
+            <li>Contenuti intimi falsi creati senza il consenso della persona</li>
+            <li>Furto d'identità e danni alla reputazione</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="riconoscere">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label">04 — Difesa</div>
+      <h2>Come Riconoscerlo?</h2>
+    </div>
+    <div class="reveal">
+      <h3>// Segnali visivi</h3>
+      <ul class="custom">
+        <li><strong>Gli occhi:</strong> il battito delle palpebre è spesso irregolare o innaturale.</li>
+        <li><strong>La pelle:</strong> ai bordi del viso può apparire sfocata o con una texture strana.</li>
+        <li><strong>I capelli:</strong> quelli più fini vengono spesso riprodotti in modo impreciso.</li>
+        <li><strong>La sincronizzazione:</strong> le labbra a volte non si muovono perfettamente con l'audio.</li>
+        <li><strong>Le luci:</strong> le ombre sul viso non sempre corrispondono all'illuminazione dell'ambiente.</li>
+      </ul>
+    </div>
+    <div class="reveal">
+      <h3>// Strumenti di rilevamento</h3>
+      <div class="tool-grid">
+        <div class="tool"><div class="tool-name">Microsoft Video Authenticator</div><p>analizza video e immagini alla ricerca di segni di manipolazioni</p></div>
+        <div class="tool"><div class="tool-name">Deepware Scanner</div><p>App gratuita che controlla se un video contiene un deepfake</p></div>
+        <div class="tool"><div class="tool-name">FakeCatcher di Intel</div><p>rileva deepfake analizzando variazioni del flusso sanguigno nel viso, invisibili a occhio nudo</p></div>
+      </div>
+    </div>
+    <div class="reveal">
+      <h3>// Il pensiero critico</h3>
+      <p>Gli strumenti tecnologici aiutano, ma non bastano. È importante ragionare con la propria testa:</p>
+      <ul class="custom">
+        <li>Controllare sempre la fonte del video prima di crederci</li>
+        <li>Cercare lo stesso contenuto su più fonti affidabili</li>
+        <li>Chiedersi chi potrebbe avere interesse a diffondere quel contenuto</li>
+        <li>Non condividere nulla di sospetto finché non si è sicuri che sia autentico</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="leggi">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label">05 — Normativa</div>
+      <h2>Leggi e Futuro</h2>
+    </div>
+    <div class="reveal">
+      <h3>// La situazione legale</h3>
+      <div class="law-item"><strong>Italia — Codice Penale</strong><p>Creare un deepfake senza consenso può configurare reati come diffamazione, sostituzione di persona o violazione della privacy.</p></div>
+      <div class="law-item"><strong>Europa — GDPR</strong><p>Protegge i dati biometrici, tra cui il volto, classificandoli come dati sensibili.</p></div>
+      <div class="law-item"><strong>Europa — AI Act (2024)</strong><p>Obbliga a etichettare chiaramente i contenuti generati dall'intelligenza artificiale.</p></div>
+      <div class="law-item"><strong>USA</strong><p>Alcuni stati hanno già leggi specifiche contro i deepfake in ambito elettorale e sessuale.</p></div>
+    </div>
+    <div class="reveal">
+      <h3>// Cosa ci aspetta</h3>
+      <ul class="custom">
+        <li>I deepfake continueranno a migliorare e diventeranno sempre più difficili da riconoscere.</li>
+        <li>Sarà sempre più importante saper valutare criticamente le informazioni e i media che consumiamo.</li>
+        <li>Si stanno sviluppando sistemi di "watermarking" digitale per certificare l'autenticità dei contenuti.</li>
+        <li>Combattere i deepfake richiederà collaborazione tra governi, aziende tecnologiche e cittadini.</li>
+      </ul>
+    </div>
+    <div class="reveal">
+      <h3>// Conclusione</h3>
+      <div class="conclusion">
+        <p>Il deepfake è una delle tecnologie più interessanti e allo stesso tempo più rischiose degli ultimi anni. Da un lato apre possibilità creative nuove nel cinema, nell'arte e nell'educazione. Dall'altro può essere usato per ingannare, truffare e danneggiare le persone. Per questo è fondamentale conoscere come funziona e sviluppare un approccio critico verso tutto ciò che vediamo online — perché non tutto ciò che sembra reale lo è davvero.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Tesina di informatica &mdash; Il Deepfake &mdash; <span id="year"></span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
